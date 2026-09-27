@@ -1,0 +1,12 @@
+# Compiler artifacts
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+build/
+
+# Editor temporary files
+*.swp
+*~
+.DS_Store
