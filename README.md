@@ -10,10 +10,11 @@ Hands-on embedded programming projects on the **STM32 NUCLEO-F446RE** board (ARM
 
 ## Projects
 - `01_baremetal_blink`: Pure register-level LED blink with custom linker script (`linker.ld`), minimal startup file (`startup.c`), memory-mapped register definitions, and a GNU `Makefile`.
+- `02_gpio_button`: Polling input pin (PC13 blue button) using `IDR` register and controlling output pin (PA5 green LED) using atomic `BSRR` register writes.
 
-## Build & Flash (Project 01)
+## Build & Flash
+Navigate to any project directory and run:
 ```bash
-cd 01_baremetal_blink
 make
 make flash
 ```
