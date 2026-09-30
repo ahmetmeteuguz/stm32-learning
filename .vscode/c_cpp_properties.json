@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "STM32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/CMSIS/**"
+      ],
+      "defines": [
+        "STM32F446xx"
+      ],
+      "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+      "cStandard": "c99"
+    }
+  ],
+  "version": 4
+}
